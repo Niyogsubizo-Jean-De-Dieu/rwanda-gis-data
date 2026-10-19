@@ -26,11 +26,22 @@ Tip on a phone: if the page looks cramped, switch the browser to "Desktop site".
 | 4. Environment and risks | forest cover and tree-cover loss, cropland on steep slopes (erosion hot-spots), vegetation health trend |
 | 5. Area snapshot | headline indicators and a Word report with every map, chart and table plus data sources |
 
+## Example output – Gicumbi District
+
+Real results produced by the notebook (all figures are saved automatically and collected in the Word report):
+
+| | |
+|---|---|
+| ![Climate diagram](docs/images/climate_diagram.png)<br>**Climate diagram** – two rainy seasons and a dry mid-year (CHIRPS rainfall, ERA5-Land temperature) | ![Tree-cover loss](docs/images/tree_cover_loss.png)<br>**Annual tree-cover loss** (Hansen et al.) |
+| ![Population density](docs/images/population_density.png)<br>**Population density by sector, 2020** (WorldPop, modelled) | ![Built-up surface](docs/images/builtup_2020.png)<br>**Built-up surface 2020** – clustered vs scattered settlement (GHSL) |
+
 ## Repository contents
 
 ```
 Rwanda_Area_Profile_GIS.ipynb      Notebook for everyone (reads the data from this repo)
 00_Export_Study_Area_Data.ipynb    For maintainers: creates a data folder for a new area
+docs/images/                       Example figures shown in this README
+tools/make_gallery.py              Refreshes docs/images from a generated report
 data/
   gicumbi/                         Data for Gicumbi District (clipped to the district)
     boundary_district.geojson, boundary_sectors.geojson, rwanda_districts.geojson
