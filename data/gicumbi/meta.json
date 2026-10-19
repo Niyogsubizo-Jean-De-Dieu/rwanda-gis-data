@@ -1,0 +1,9 @@
+{
+ "study_name": "Gicumbi",
+ "folder": "gicumbi",
+ "crs": "EPSG:32736",
+ "year_from": 2001,
+ "year_to": 2023,
+ "hansen_dataset": "UMD/hansen/global_forest_change_2025_v1_13",
+ "exported": "2026-10-19"
+}
